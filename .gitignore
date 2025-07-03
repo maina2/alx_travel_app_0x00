@@ -1,3 +1,8 @@
+# Virtual Environment
+venv/
+env/
+.env
+
 # Python
 __pycache__/
 *.py[cod]
@@ -25,31 +30,14 @@ wheels/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-media/
+media
 
-# Environment variables
-.env
-.env.*
-
-# VS Code
-.vscode/
-*.code-workspace
-
-# PyCharm
+# IDE specific files
 .idea/
+.vscode/
+*.swp
+*.swo
 
-# macOS
+# OS specific files
 .DS_Store
-
-# Virtual environment
-venv/
-env/
-ENV/
-
-# MySQL
-*.sql
-*.dump
-
-# Celery
-celerybeat-schedule
-celerybeat.pid
+Thumbs.db
